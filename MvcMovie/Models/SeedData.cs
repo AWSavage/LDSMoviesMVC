@@ -24,6 +24,7 @@ namespace MvcMovie.Models
                          Title = "17 Miracles",
                          ReleaseDate = DateTime.Parse("2011-1-11"),
                          Genre = "Drama",
+                         Rating = "PG",
                          Price = 7.99M
                      },
 
@@ -32,6 +33,7 @@ namespace MvcMovie.Models
                          Title = "Meet the Mormons",
                          ReleaseDate = DateTime.Parse("2014-3-13"),
                          Genre = "Drama",
+                         Rating = "G",
                          Price = 8.99M
                      },
 
@@ -40,6 +42,7 @@ namespace MvcMovie.Models
                          Title = "The RM",
                          ReleaseDate = DateTime.Parse("2003-2-23"),
                          Genre = "Comedy",
+                         Rating = "G",
                          Price = 9.99M
                      },
 
@@ -48,6 +51,7 @@ namespace MvcMovie.Models
                        Title = "The Best Two Years",
                        ReleaseDate = DateTime.Parse("2003-4-15"),
                        Genre = "Comedy",
+                       Rating = "PG",
                        Price = 3.99M
                    }
                 );
